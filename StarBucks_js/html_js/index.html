@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+<!-- css -->
+ <link rel="stylesheet" href="/html_js/index.css">
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <div class="main">
+<!-- first  div for nav bbar -->
+ <div  class="border-botton">
+  <div class="bg-success pt-1" id="nav1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-10 text-center text-md-start">
+          
+          <p><strong>Super Diwali Offers 🪔</strong>- Save more with coupons</p>
+        </div>
+        <div class="col-4 text-lg-end d-none d-md-block ">
+          <div class="dropdown selectBox">
+            <a class="dropdown-toggle selectValue text-reset" href="javascript:void(0)"
+               data-bs-toggle="dropdown" aria-expanded="false">
+               
+               English
+            </a>
+
+            <ul class="dropdown-menu">
+               <li>
+                  <a class="dropdown-item" href="javascript:void(0)">
+                     
+                    Marathi
+                  </a>
+               </li>
+               <li>
+                  <a class="dropdown-item" href="javascript:void(0)">
+                     
+                 Hindi
+                  </a>
+               </li>
+            </ul>
+         </div>
+        </div>
+        <div class="col-2 col-sm-2 text-md-end cart1">
+          <!-- cart open from right side -->
+          <button class="btn cart " type="button"  data-bs-toggle="offcanvas" data-bs-target="#cart" aria-controls="offcanvasRight">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+            </svg>
+            <!-- <span class="qty">0</span> -->
+          </button>
+ <!--off canvas for add to cart-->
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Order Your Coffee Now</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Bistro Recommends
+             
+            </div>
+            
+            <div class="subtotal"></div>
+            <div class="d-flex justify-content-evenly">
+              <button type="button" class="btn btn-success btn-sm"><a href="/html_js/index.html" style="color:white">Continue Shopping</a></button>
+              <button type="button" class="btn btn-secondary btn-sm">Update Cart</button>
+           </div>
+          </div>
+          </div>
+          
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+   
+ 
+ 
+
+
+ <!-- Div 2 -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item p-2">
+          <a class="nav-link active" aria-current="page" style="color: rgb(3, 71, 3); font-size:1.5rem;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    " href="#">Home</a>
+        </li>
+        <li class="nav-item p-2">
+          <a class="nav-link" href="#"  style="color: rgb(3, 71, 3); font-size:1.5rem">Gift</a>
+        </li>
+        <li class="nav-item dropdown p-2">
+          <a class="nav-link dropdown-toggle"  style="color: rgb(3, 71, 3); font-size:1.5rem;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Pay
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="#">Cart</a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item p-2">
+          <a class="nav-link" href="#" style="color: rgb(3, 71, 3);font-size:1.5rem ;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    ">Order</a>
+        </li>
+      
+      <li class="nav-item p-2">
+        <a class="nav-link" href="#"  style="color: rgb(3, 71, 3);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    ; font-size:1.5rem" data-bs-toggle="modal" data-bs-target="#locationModal">Store</a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link" href="#" class="text-muted"  style="color: rgb(3, 71, 3); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    ;font-size:1.5rem;"data-bs-toggle="modal" data-bs-target="#exampleModalid">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg>
+       </a>
+      </li>
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+     
+    </div>
+  </div>
+</nav>
+     
+
+
+      
+        
+       
+
+<!-- Carsoule -->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner m-1 m-xxl-1 mb-2 mt-2">
+    <div class="carousel-item  active position-relative mb-4 ">
+      <img src="/images//bg1.jpg " class="d-block w-100" alt="...">
+      
+        <div class="row d-flex c">
+          <div class="col-3 position-absolute top-0 ">
+            <img src="/images/Banner_Left_Image_1_fd02e7b3b7.png" alt="">
+          </div>
+        <div class="row ">
+          <div class=" col-7 info  position-absolute top-0 left-50">
+            <a href="" >
+              <p>Introducing</p>
+              <h3>Diwali Delights</h3>
+              <p>savor festive flavor with our kesar-pista beverage& mithai inspired dessert </p>
+            </a>
+            
+          </div>
+          <div class=" col-2  btn col-md-1 col-xxl-2 position-absolute top-0 left-50 " id="btn">
+          <a href="" class="text-center mb-2">Order Now</a>
+          </div>
+          </div>
+        </div>
+
+
+      
+    </div>
+    <div class="carousel-item mb-4">
+      <img src="/images//bg2.jpg" class="d-block w-100" alt="...">
+      <div class="row d-flex c">
+        <div class="col-3 position-absolute top-0 ">
+          <img src="/images/banner333.png" alt="">
+        </div>
+      <div class="row ">
+        <div class=" col-7 info  position-absolute top-0 left-50">
+          <a href="" >
+            <p>Introducing</p>
+            <h3>Gift A Starbucks</h3>
+            <p>This festive season,we bring to you the perfect gifting story from our India exclusive limites-edition range </p>
+            <p>Starting From</p>
+            <h4>Rs.350</h4>
+          </a>
+          
+        </div>
+        <div class=" col-2  btn col-md-1 col-xxl-2 position-absolute top-0 left-50 " id="btn">
+        <a href="" class="text-center mb-2">Order Now</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item mb-4">
+      <img src="/images/bgg.jpg" class="d-block w-100" alt="...">
+      <div class="row d-flex c">
+        <div class="col-3 position-absolute top-0 ">
+          <img src="/images/banner3.png" alt="">
+        </div>
+      <div class="row ">
+        <div class=" col-7 info  position-absolute top-0 left-50">
+          <a href="" >
+            <p>Introducing</p>
+            <h3>Beverage Subscription</h3>
+            <p>Starbucks Subscription is Back!Sip Tour Favouritefor less.Tap for DetailsT&C Apply </p>
+           
+          </a>
+          
+        </div>
+        <div class=" col-2  btn col-md-1 col-xxl-2 position-absolute top-0 left-50 " id="btn">
+        <a href="" class="text-center mb-2">Know More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item mb-4">
+      <img src="/images/green.png" class="d-block w-100" alt="...">
+      <div class="row d-flex c">
+        <div class="col-3 position-absolute top-0 ">
+          <img src="/images/banner4.png" alt="">
+        </div>
+      <div class="row ">
+        <div class=" col-7 info  position-absolute top-0 left-50" style="color: white;">
+          <a href="" style="color: white;" >
+            <p>Now Brewing</p>
+            <h3>StarBucks Menu</h3>
+            <p>Indulge in season's feasting!Make your sips extra special.Explore Menu </p>
+           
+          </a>
+          
+        </div>
+        <div class=" col-2  btn col-md-1 col-xxl-2 position-absolute top-0 left-50 " id="btn">
+        <a href="" class="text-center mb-2">Order now </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Handcraft -->
+ <div class="container w-100  " id="handcraft">
+  <div class="text-center w-100  pb-2">
+    <h2>
+      Handcrafted Curations
+    </h2>
+  </div>
+  
+ </div>
+ <!-- Carous handcraft -->
+ <div class="container">
+
+
+
+  <div id="xxx" class="carousel slide" data-bs-ride="carousel">
+    <button class="carousel-control-prev" type="button" data-bs-target="#xxx" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#xxx" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+        <span class="text-primary"> <i class="fa-solid fa-circle-chevron-left"></i></span>
+     </button>
+     <div class="carousel-inner mt-2" >
+        <div class="carousel-item active">
+           <div class="row  " id="craft">
+              <div class=" col-sm-2 ">
+                 <a href="index.html">
+                    <!-- <div class="card shadow"> -->
+                       <!-- <div class="card-body"> -->
+                          <img src="/images/Bestseller.webp" class="d-block mx-auto" alt="...">
+                          <h6 class="text-center">BestSeller</h6>
+                       <!-- </div> -->
+                    <!-- </div> -->
+                 </a>
+              </div>
+              <div class=" col-sm-2">
+                 <a href="index.html">
+                    <!-- <div class="card shadow"> -->
+                       <!-- <div class="card-body"> -->
+                          <img src="/images/11.webp" class="d-block mx-auto" alt="...">
+                          <h6 class="text-center">Drinks</h6>
+                       <!-- </div> -->
+                    <!-- </div> -->
+                 </a>
+              </div>
+              <div class=" col-sm-2">
+                 <a href="products.html">
+                    <!-- <div class="card shadow"> -->
+                       <!-- <div class="card-body"> -->
+                          <img src="/images/Food.webp" class="d-block mx-auto" alt="...">
+                          <h6 class="text-center">Food</h6>
+                       <!-- </div> -->
+                    <!-- </div> -->
+                 </a>
+              </div>
+              <div class="col-sm-2" style=" border-radius: 50%;" >
+                <a href="index.html">
+                   <!-- <div class="card shadow">
+                      <div class="card-body"> -->
+                         <img src="/images/Merchandise.webp" class="d-block mx-auto" alt="...">
+                         <h6 class="text-center">Merchandise</h6>
+                      <!-- </div>
+                   </div> -->
+                </a>
+             </div>
+             <div class="col-sm-2">
+                <a href="index.html">
+                   <!-- <div class="card shadow">
+                      <div class="card-body"> -->
+                         <img src="/images/ReadyToEat.webp" class="d-block mx-auto" alt="...">
+                         <h6 class="text-center">ReadyToEat</h6>
+                      <!-- </div>
+                   </div> -->
+                </a>
+             </div>
+             <div class="col-sm-2 ">
+                <a href="index.html">
+                   <!-- <div class="card shadow">
+                      <div class="card-body"> -->
+                         <img src="/images/CoffeeAtHome.webp" class="d-block mx-auto" alt="...">
+                         <h6 class="text-center">CoffeeAtHome</h6>
+                      <!-- </div>
+                   </div> -->
+                </a>
+             </div>
+              
+            
+           </div>
+
+        </div>
+        <div class="carousel-item mt-2">
+           <div class="row" id="craft1">
+              <div class="col-sm-2" style=" border-radius: 50%;" >
+                 <a href="index.html">
+                    <!-- <div class="card shadow">
+                       <div class="card-body"> -->
+                          <img src="/images/Croissants.jpg" class="d-block mx-auto" alt="...">
+                          <h6 class="text-center">Croissants</h6>
+                       <!-- </div>
+                    </div> -->
+                 </a>
+              </div>
+              <div class="col-sm-2">
+                 <a href="index.html">
+                    <!-- <div class="card shadow">
+                       <div class="card-body"> -->
+                          <img src="/images/roll.jpg" class="d-block mx-auto" alt="...">
+                          <h6 class="text-center">Cinnamon roll</h6>
+                       <!-- </div>
+                    </div> -->
+                 </a>
+              </div>
+              <div class="col-sm-2 ">
+                 <a href="index.html">
+                    <!-- <div class="card shadow">
+                       <div class="card-body"> -->
+                          <img src="/images/everthing.jpg" class="d-block mx-auto" alt="...">
+                          <h6 class="text-center">Everthing Bagel</h6>
+                       <!-- </div>
+                    </div> -->
+                 </a>
+              </div>
+              <div class="col-sm-2" style=" border-radius: 50%;" >
+                <a href="index.html">
+                   <!-- <div class="card shadow">
+                      <div class="card-body"> -->
+                         <img src="/images/pops.jpg" class="d-block mx-auto" alt="...">
+                         <h6 class="text-center">OrangeCreamCakePops</h6>
+                      <!-- </div>
+                   </div> -->
+                </a>
+             </div>
+             <div class="col-sm-2">
+                <a href="index.html">
+                   <!-- <div class="card shadow">
+                      <div class="card-body"> -->
+                         <img src="/images/cake.jpg" class="d-block mx-auto" alt="...">
+                         <h6 class="text-center">Cake</h6>
+                      <!-- </div>
+                   </div> -->
+                </a>
+             </div>
+             <div class="col-sm-2 ">
+                <a href="index.html">
+                   <!-- <div class="card shadow">
+                      <div class="card-body"> -->
+                         <img src="/images//muffin.jpg" class="d-block mx-auto" alt="...">
+                         <h6 class="text-center">Muffin</h6>
+                      <!-- </div>
+                   </div> -->
+                </a>
+             </div>
+              
+           </div>
+        </div>
+       
+     </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- Barista Recommends -->
+ <div class="container mt-4  w-200 " id="bist">
+  <h3>Barista Recommends</h3>
+  <br>
+<!-- row-cols-lg-2 row-cols-2 row-cols-md-3 -->
+  <div class="row row-cols-md-3 row-cols-lg-2   w-100  elements d-flex d-flex-wrap gap-5 "  >
+
+    <!-- <div class="col-md-2 " style="background-color: white; border-radius:20px ;padding:9px;">
+      <div class="row">
+        <div class="col img">
+           <img src="/images/1.jpg" alt="" height="100px" width="140px" style="border-radius: 20px;" >
+        </div>
+        <div class="col img2">
+          <img src="/images/veg.jpg" alt="" height="20px" width="20px"  >
+          <a href="/index.html"><p style="font-size:15px;">Cap</p></a>
+          <p class="text-muted">SHORT</p>
+       </div>
+       <div class="d-flex" style="font-size:12px;">
+        <p>$${product.price}</p><p class="text-muted flex-grow-1">$24</p> 
+        <button type="button" class="btn btn-sm btn-success" onclick="addtocart(${product.id})">+ Add</button>        
+      </div>
+      </div>
+      </div> -->
+
+
+  </div>
+ </div>
+
+<!-- Learn More -->
+<hr>
+<div class="container mt-4 w-100" id="Learncontainer">
+  <div class="row " id="l">
+    <div class="col-8 mt-1 " id="learn">
+       <h2>Learn more about the world of coffee!</h2>
+    </div>
+    <div class="col-4 mt-3" id="learn2">
+         <a href="#">Discover More</a>
+    </div>
+  </div>
+  <div class="learnmore position-relative">
+    <div class="row">
+      <img src="/images/learnmore.jpg" alt="">
+      <div class="coffee ">
+        <a href=""> Coffee Culture</a>
+       </div>
+       <div class="ii">
+        <a href=""> <h2>Art & Science Of Coffee Brewing</h2>
+        <p>Mastter the perfect brew with Starbucks !Learn the art and ccience Of coffee brewing</p></a>
+       </div>
+       <div class="bb">
+        <a href="/html_js/index.html">Learn More</a>
+       </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer mt-5">
+  <div class="row">
+    <div class="content col-2 col-md-2 mt-2 p-2" id="ff" >
+      <a href="/html_js/index.html">
+        <img src="/images/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class=" content col-2 col-xl-2 col-md-3 p-2">
+      <a href="/html_js/index.html">
+
+        <h2>About Us</h2>
+        <p>Our Heritage</p>
+        <p>Coffeehouse</p>
+        <p>Our Company</p>
+      </a>
+    </div>
+    <div class="content col-4 col-xl-2 col-md-3 p-2">
+      <a href="">
+        <h2>Responsibility</h2>
+      <p>Diversity</p>
+      <p>Community</p>
+      <p>Ethical Sourcing</p>
+      <p>Environment Stewardship</p>
+      <p>Learn More</p>
+      </a>
+    </div>
+    <div class=" content col-2 col-xl-2 col-md-3 p-2">
+      <a href="">
+        <h2>Quick Learns</h2>
+      <p>Privacy Policy</p>
+      <p>FAQs</p>
+      <p>Starbucks India Mobile App Terms of Use</p>
+      <p>Customer Service</p>
+      <p>Delivery</p>
+      <p>Season's Gifting</p>
+      <p>Loyalty Program Terms and Conditions</p>
+      <p>Starbucks Reward Day Offer</p>
+      </a>
+    </div>
+    <div class=" content col m-2 p-2">
+      <a href="">
+        <h2>Social Media</h2>
+        <img src="/images/instagram.svg" alt="Instagram">
+        <img src="/images/facebook.svg" alt="facebook">
+        <img src="/images/twitter.svg" alt="twitter">
+      </a>
+    </div>
+    <div class="content col m-2 p-2">
+      <a href="">
+        <img src="/images/appstoreiOS.png" alt="">
+        <img src="/images/appstoreAndroid.png" alt="">
+      </a>
+    </div>
+  </div>
+</div>
+      
+      <!-- MODEL -->
+       <!-- Model of location -->
+      <div class="modal fade" id="locationModal" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Store Location</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2  ">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d30263.252588354073!2d73.81969586865023!3d18.533123583998236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d18.5255643!2d73.8464113!4m3!3m2!1d18.54086!2d73.83062!5e0!3m2!1sen!2sin!4v1728475428721!5m2!1sen!2sin"
+                width="450" height="430" style="border:0;" allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- Model for verification -->
+      <div class="modal" id="exampleModalid" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 p-3"   style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: green;" id="exampleModalLabel">
+                <img src="/images/logo.png" alt="">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class=" g-3">
+                <div class="col-12 text-center">
+                  <label for="validationServerUsername" class="form-label"></label>
+                  <div class="input-group has-validation">
+                    <!-- <span class="input-group-text" id="inputGroupPrepend3">@</span> -->
+                    <input type="text" class="form-control is-invalid" placeholder="Please enter user-id or  emailid" id="d11" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                      <!-- Please enter a username. -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <label for="validationServer03" class="form-label"></label>
+                  <input type="text" class="form-control is-invalid" placeholder="Please enter password" id="d22" aria-describedby="validationServer03Feedback" required>
+                  <div id="validationServer03Feedback" class="invalid-feedback">
+                    <!-- Please enter password -->
+                  </div>
+                </div>
+               
+                <div class="col-12 ">
+                  <div class="form-check ">
+                    <input class="form-check-input is-invalid" style="color: rgb(1, 53, 1); "type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                      <div class="inf" style="color: rgb(1, 53, 1);">Keep me signed in.</div>
+                      <div class="link"><a href="#">Details</a></div>
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+                      
+                    </div>
+                  </div>
+                </div>
+                
+
+                     
+                   <div class="col-12  text-center">
+                    <input type="submit" value="Sign-In">
+                   </div>
+               
+                
+    <br>
+               
+            </form>
+        </div>
+        
+    
+        <!-- Forget -->
+         <div class="Forget">
+            <a href="#">Forget your  username?</a>
+            <a href="#">Forget your  password?</a>
+         </div>
+    <br><br><br><br>
+         
+    
+          <div class="Allinf">
+    
+            <h5>JOIN STARBUCKS REWARDS</h5>
+            <P>Join Starbucks Rewards to earn free food and drinks ,get free refills ,pay and order with your phone,and more.</P>
+          </div>
+        </div>
+              </div>
+            </div>
+            
+          </div>
+
+
+        
+
+ </div>
+
+ <!-- script_js added -->
+ <script src="/html_js/product.js"></script>
+     
+   
+     
+     
+
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+
+      
+      
+      <!-- MODEL -->
+       <!-- Model of location -->
+      <div class="modal fade" id="locationModal" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Store Location</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2  ">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d30263.252588354073!2d73.81969586865023!3d18.533123583998236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d18.5255643!2d73.8464113!4m3!3m2!1d18.54086!2d73.83062!5e0!3m2!1sen!2sin!4v1728475428721!5m2!1sen!2sin"
+                width="450" height="430" style="border:0;" allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- Model for verification -->
+      <div class="modal fade" id="exampleModalid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 p-3"   style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: green;" id="exampleModalLabel">
+                 <img src="/images/logo.png" alt="">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             
+             <!-- form -->
+             
+          
+          
+          <div class="form">
+              <form action="" name="myform" onsubmit="return Validation()">
+  
+                  <input type="text" id="d1" name="user" placeholder=" Enter user-id or email"> 
+                  <span id="s1"></span>
+                  <br><br>
+              
+                  <input type="password" id="d2" name="password" placeholder="enter password">  <br><br>
+               
+  
+                  
+                     
+                         <input type="checkbox" name="checkbox" id="checkbox1">
+                   
+                     <h3 id="display" style="color: black;"></h3>
+                   <h3 id="error" style="color:green;"></h3>
+                   <div class="inf">Keep me signed in.</div>
+                   <div class="link"><a href="#">Details</a></div>
+                    <input type="submit" value="Sign-In">
+             
+              
+  <br>
+             
+          </form>
+      </div>
+      
+  
+      <!-- Forget -->
+       <div class="Forget">
+          <a href="#">Forget your  username?</a>
+          <a href="#">Forget your  password?</a>
+       </div>
+  <br><br><br><br>
+       
+  
+        <div class="Allinf">
+  
+          <h5>JOIN STARBUCKS REWARDS</h5>
+          <P>Join Starbucks Rewards to earn free food and drinks ,get free refills ,pay and order with your phone,and more.</P>
+        </div>
+      </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </div>
+     
+
+
+
+
+
+
+
+
+      <!-- script_js added -->
+    
+     
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

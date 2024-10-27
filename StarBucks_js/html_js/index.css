@@ -1,0 +1,426 @@
+
+body{
+   
+    margin-top: 10px !important;
+    background-color: rgb(246, 242, 236) !important;
+}
+#nav1{
+    background-color: rgb(105, 210, 156) !important;
+    
+
+    
+}
+#title{
+   padding-top: 12px;
+    color:rgb(16, 73, 16);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#homeicon {
+    color: var(rgb(0, 41, 0)) !important;
+}
+
+.navbar-toggler button{
+    color: green;
+}
+.navbar {
+    background-color:  rgb(246, 242, 236) !important;
+    box-shadow: 1px 1px 2px grey;
+    
+}
+.navbar .container .nav-item .collapse ul li a{
+   color: rgb(3, 71, 3) !important;
+   font-size: 1.5rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.nav-items:hover{
+transform: scale(0.01,0.01);
+text-decoration: underline !important;
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+.carousel-item img{
+    height: 350px;
+    width: 250px;
+}
+
+/* Carsoule */
+.carousel-item  .info  a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    text-align:left;
+    font-size: 1.2rem;
+}
+.carousel-inner{
+    border-radius: 30px;
+    
+}
+.carousel-item  .row   #btn a{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 250px;
+    right: -520px;
+    background-color: rgb(1, 58, 1);
+    border-radius: 30px;
+    color: white;
+
+}
+.container .heading{
+    width: 100%;
+    margin: 2px;
+    padding: 10px;
+
+   
+    
+}
+/* craft */
+ 
+.carousel-inner #craft  img{
+    padding: 2px;
+    margin-left: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+ #craft img:hover{
+    transform: scale(1.03,1.03);
+ }
+#craft .col .card {
+height: 200px;
+width: 200px;
+    border-radius: 50%;
+}
+#craft .card-body h6{
+    margin: 2px;
+    padding: 2px;
+   
+}
+#craft a  {
+    color: black;
+    text-decoration: none;
+
+}
+#craft,#craft1{
+    transition: ease-in-out;
+}
+#craft1 a  {
+    color: black;
+    text-decoration: none;
+
+} 
+#handcraft{
+  color: rgb(2, 58, 2);
+}
+ #handcraft:hover{
+    text-decoration: overline;
+    transform: scale(1.01,1.01);
+    transition: ease;
+ }
+ .carousel-inner #craft1  img{
+    padding: 2px;
+    margin-left: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+ #craft1 img:hover{
+    transform: scale(1.03,1.03);
+ }
+#carouselExampleControls{
+    margin: 30px;
+    
+}
+
+
+
+
+.learnmore .row img  {
+  /* opacity: 0.6; */
+  
+
+    width: 1200px;
+    height: 400px;
+    text-align: center;
+    border-radius: 40px;
+    /* margin: 20px; */
+  
+}
+
+
+#learn h2 {
+    padding: 10px;
+    text-decoration: none;
+     color: rgb(2, 52, 2);
+}
+#learn2 a {
+    padding: 10px;
+    text-decoration: none;
+     color: rgb(2, 52, 2);
+}
+
+#Learncontainer{
+    /* background-color: rgb(226, 223, 223); */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(/images/back1.jpg); */
+  
+}
+
+#learnmore{
+    position: relative;
+}
+.coffee a{
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color:papayawhip;
+    opacity: 0.6;
+}
+.coffee a{
+    text-decoration: none;
+    color: green;
+}
+ .row .ii{
+    position: absolute;
+    top: 180px;
+    padding: 10px;
+    margin: 10px;
+   
+    opacity: 0.9;
+}
+.ii a{
+    text-decoration: none;
+    color: white;
+}
+.row .bb{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+   background-color: white;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+.row .bb a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    background-color: rgb(1, 48, 1);
+    color: white;
+}
+
+.footer .row .content a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.footer .row{
+    margin-top: 10px;
+    padding: 5px;
+}
+#ff a img{
+    padding: 20px;
+    margin-left: 25px;
+}
+/* cart */
+#offcanvasRightLabel
+{
+    width: 100%;
+    box-shadow: 1px 1px 1px grey;
+}
+
+
+
+
+
+/* Card_Barista */
+.elements {
+    width:100%;
+    height: 100%;
+    display: flex;
+align-content: space-evenly;
+transition:0.01;
+
+
+}
+
+.elements .col{
+    width: 400px;
+    height: 150px;
+    
+}
+.bistro{
+    /* width: 40%; */
+    width: 400px;
+    box-shadow: 2px 2px 3px grey;
+}
+.bistro2 button{
+    padding: 4px;
+    margin: 25px;
+    /* align-content: space-between; */
+    color: white;
+    border-radius: 8px;
+    
+}
+.col .img2 {
+    text-decoration: none;
+    color: rgb(2, 33, 2);
+}
+.col .img2 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(4, 77, 4);
+}
+
+
+.bistro :hover{
+    transform: scale(1.01,1.01);
+
+ 
+}
+#bist{
+margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* model of ID_person */
+.form {
+    
+    text-align: center;
+     
+ }
+ .form #d11{
+     height: 30px;
+     width: 250px;
+     align-content: center;
+     padding: 5px;
+     border: 2px solid grey;
+     border-radius: 10px;
+ }
+ .form #d22{
+     height: 30px;
+     width: 250px;
+     padding: 5px;
+     border: 2px solid grey;
+     border-radius: 10px;
+ }
+ 
+ .info{
+     text-align: center;
+     display: flex;
+     position: absolute;
+     left: 20%;
+     
+ }
+ .info .chec input{
+     text-align: center;
+     width: 20px;
+     height: 20px;
+     color: black;
+     
+     text-align: center;
+     text-decoration: none;
+     border: none;
+ }
+ #checkbox{
+     text-decoration: none;
+     
+     border: none;
+     background-color: green;
+ 
+ }
+ .link a{
+     /* text-decoration: none; */
+     font-size: 1rem;
+     font-weight: bold;
+      color: rgb(2, 73, 2);
+ }
+ 
+ .Forget{
+     text-align: center;
+     display: flex;
+     gap: 2px;
+     flex-direction: column;
+ 
+ }
+ .Forget a{
+ 
+     color: rgb(2, 68, 2);
+     font-size: 1rem;
+     font-weight: bold;
+ 
+ }
+ .Allinf{
+     text-align: center;
+     color: rgb(2, 84, 2);
+     font-size: 1rem;
+     font-weight: bold;
+ }
+ .Allinf p{
+     color: black;
+     font-size: 1rem;
+     font-weight: lighter;
+ }
+ 
+ input[type=submit]{
+     height: 40px;
+     width: 250px;
+     align-content: center;
+     padding: 5px;
+     margin: 15px;
+     border: 2px solid rgb(244, 238, 238);
+     border-radius: 10px;
+     /* position: absolute;
+     padding: 5px;
+     top: 65%;
+     left: 30%; */
+     color: aliceblue;
+     background-color: rgb(2, 103, 2);
+ }
+
+ /* cart */
+ .cart1 span{
+    position: absolute;
+    top:-1;
+    right: 60px;
+    padding: 2px;
+    /* background-color: aliceblue; */
+    border-radius: 60%;
+
+ }
